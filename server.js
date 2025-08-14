@@ -1,6 +1,7 @@
 const express = require('express');
 const authMiddleware = require('./middleware/auth');
-const dashboardRoute = require('../../../dashboard');
+const dashboardRoute = require('./routes/dashboard');
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
